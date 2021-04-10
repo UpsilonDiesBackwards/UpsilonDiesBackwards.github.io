@@ -1,0 +1,47 @@
+h2, h3, h4, h5, h6 {
+    text-align: center;
+    font-family: "Liberation Mono", sans-serif;
+    position: absolute;
+}
+
+#homepage-title {
+    font: italic bolder 34px/36px fantasy, sans-serif;
+
+    position: absolute;
+    top: 0px;
+    left: 15px;
+    right: 5px;
+}
+
+.homepage-background-image{
+    background-image: url('src/res/background.jpeg');
+    width: 1600px;
+    height: 1600px;
+    object-fit: cover;
+    z-index: -2;
+}
+
+#homepage-title-bar {
+    z-index: -3;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    font-family: "MesloLGS NF", sans-serif;
+}
+
+a:link,a:visited {
+    display: block;
+    font-weight: bold;
+    color: #000000;
+    background-color: #FFFFFF;
+    width: 100px;
+    text-align: center;
+    text-transform: uppercase;
+}
+a:hover,a:active {
+
+}
