@@ -1,6 +1,18 @@
-h1, h2, h3, h4, h5, h6 {
+h3, h4, h5, h6 {
     text-align: center;
     text-anchor: middle;
+    font-family: "Liberation Mono", sans-serif;
+    position: absolute;
+}
+
+h1 {
+    text-align: center;
+    font-family: "Liberation Mono", sans-serif;
+    position: absolute;
+}
+
+h2 {
+    text-align: center;
     font-family: "Liberation Mono", sans-serif;
     position: absolute;
 }
