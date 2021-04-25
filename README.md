@@ -1,2 +1,0 @@
-# UpsilonDiesBackwards
-My Personal Website

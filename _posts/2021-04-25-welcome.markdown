@@ -1,0 +1,9 @@
+---
+layout: default
+title:  "Welcome to Upsilon Dies Backwards!"
+date:   2021-04-25 20:10:00 +0100
+categories: general
+---
+Hello!
+
+My name is Upsilon and this is my blog space, here I will comment on my progress on my projects and shit.

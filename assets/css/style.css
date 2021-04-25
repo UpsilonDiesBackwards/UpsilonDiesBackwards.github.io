@@ -1,0 +1,37 @@
+*{
+    font-family: "Liberation Mono", sans-serif;
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+h3, h4, h5, h6 {
+    text-align: center;
+    text-anchor: middle;
+}
+
+#main-container {
+    margin-top: 50px;
+}
+
+
+/* Light mode */
+@media (prefers-color-scheme: light) {
+    body {
+        background-color: white;
+        color: black;
+    }
+}
+
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: #121212;
+        color: white;
+    }
+}
