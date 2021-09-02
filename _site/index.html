@@ -3,10 +3,12 @@
 <html lang="en-gb">
 
 <head>
-    <link rel="shortcut icon" type="image/png" href="favicon.png">
-    <title>Upsilon Dies Backwards</title>
+    <link rel="shortcut icon" type="image/png" href="/assets/images/favicon.png">
+    <title></title>
     <link rel="stylesheet" type="text/css" href="/assets/css/style.css"/>
-    <link rel="stylesheet" type="text/css" href="/assets/css/navigation.css"/>  
+    <link rel="stylesheet" type="text/css" href="/assets/css/navigation.css"/>
+    <link rel="stylesheet" type="text/css" href="/assets/css/slideshow.css"/>
+  
 </head>
 <body>
     <div id="main-nav">
@@ -26,22 +28,24 @@
     </ul>
 </div>
   <div id="main-container">
+    <h1></h1>
+    <body>
     <h1>Upsilon Dies Backwards</h1>
-    <p><strong>“Even when the universe ends, just know that in the end there will always be danny.”</strong>
-<br />                                                      <em>- loser pants ryan</em></p>
-
-<p>Hello, My name Is Upsilon but my real name is Tayler,</p>
-
-<p>I also go by “Big Man Uppy” and “Brutal Geveva Convention breaking War Criminal”</p>
-
-<p>Here you can check out my blog (if you care about that)</p>
-
-<p>Check out my tutorials</p>
-
-<p>Learn more about me or contact me if needed</p>
-
-<p>Thank you, goodnight.</p>
+    <div class="slider">
+        <div class="images">
+            <img src="./assets/images/slide1.png" class="m1" alt="slideshowImage1" id="slideshowImage" width="600" height="600" />
+        </div>
+        <div class="dots">
+            <label for="slideshowImage1" onclick="changeIcon1();"></label>
+            <label for="slideshowImage2" onclick="changeIcon2();"></label>
+            <label for="slideshowImage3" onclick="changeIcon3();"></label>
+        </div>
+    </div>
+    <script src="/assets/javascript/slideshow.js">
+</body>
+</script></body>
 
   </div>
+  <script src="/assets/javascript/slideshow.js"></script>
 </body>
 </html>

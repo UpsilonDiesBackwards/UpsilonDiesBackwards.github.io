@@ -1,9 +1,11 @@
 *{
     font-family: "Liberation Mono", sans-serif;
     text-align: center;
+
 }
 
 h1 {
+    text-justify: distribute;
     text-align: center;
 }
 
@@ -19,7 +21,6 @@ h3, h4, h5, h6 {
 #main-container {
     margin-top: 50px;
 }
-
 
 /* Light mode */
 @media (prefers-color-scheme: light) {

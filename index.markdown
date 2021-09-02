@@ -3,20 +3,19 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: default
-title: Upsilon Dies Backwards
+title:
 ---
-
-**"Even when the universe ends, just know that in the end there will always be danny."**
-<br>                                                      *- loser pants ryan*
-
-Hello, My name Is Upsilon but my real name is Tayler,
-
-I also go by "Big Man Uppy" and "Brutal Geveva Convention breaking War Criminal"
-
-Here you can check out my blog (if you care about that)
-
-Check out my tutorials
-
-Learn more about me or contact me if needed
-
-Thank you, goodnight.
+<body>
+    <h1>Upsilon Dies Backwards</h1>
+    <div class="slider">
+        <div class="images">
+            <img src="./assets/images/slide1.png" class="m1" alt="slideshowImage1" id="slideshowImage" width="600" height="600">
+        </div>
+        <div class="dots">
+            <label for="slideshowImage1" onclick="changeIcon1();"></label>
+            <label for="slideshowImage2" onclick="changeIcon2();"></label>
+            <label for="slideshowImage3" onclick="changeIcon3();"></label>
+        </div>
+    </div>
+    <script src="/assets/javascript/slideshow.js">
+</body>
